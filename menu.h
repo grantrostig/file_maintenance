@@ -17,7 +17,7 @@
 
 struct Menu {
     std::string name 		{"Configuration error:Need to Initialize!"};
-    std::string description {"Configuration error:Need to Initialize!"};
+    std::string description     {"Configuration error:Need to Initialize!"};
     std::string help 		{"Detailed Help: When you see text followed by >> and the blinking box (the prompt followed by the cursor), the system is waiting for you to select what you want to do next. Type the one keyboard character which corresponds to the action you want. For example: (h)elp highlights the <h> key. The system will respond right away unless you are editing data, you don't need to press <ENTER> for the system to respond in most cases."};
     std::vector<Menu_option> options {};
     // Menu();  // builds the linked/self-referring datastructures to hold all the menus.

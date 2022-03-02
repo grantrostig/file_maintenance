@@ -71,10 +71,10 @@ enum class InteractionCategory {
 };
 
 struct InteractionResult {
-        Hot_key							hot_key		{};  // interaction within interaction requires this value.  ie. help within a field interaction.
-        size_t							index		{};  // points to most recent item processed
+        Hot_key				hot_key		{};  // interaction within interaction requires this value.  ie. help within a field interaction.
+        size_t				index		{};  // points to most recent item processed
         InteractionResultData_Variant  	data 		{};  // the most important data value of the item processed. ie. name or code or ID.
-        InteractionResultError		   	error 		{};	 // any error that occurred.
+        InteractionResultError	   	error 		{};	 // any error that occurred.
         InteractionResultNav 	       	navigation 	{InteractionResultNav::no_result};  // hint that is passed to the caller on user's intent for future processing, or that which is required due to an error.
       };
 
