@@ -57,9 +57,9 @@ Overloaded(Ts...) -> Overloaded<Ts...>;  // deduction guide.  -> = returns.  tod
 
 InteractionResult const process_menu_selection( State_menu & state, Menu_option const & menu_selection ) {
     // get some general data, even though it is not used for every overload.
-    std::shared_ptr<Menu> 	current_menu_sp 	{ state.menu_top_sp() };  	// todo: I don't think I need a value in the lambda, because it is overridden at std::visit?
-    Menu 					current_menu 		{ *current_menu_sp };
-    State_menu				kludge_state	    {};
+    std::shared_ptr<Menu>   current_menu_sp 	{ state.menu_top_sp() };  	// todo: I don't think I need a value in the lambda, because it is overridden at std::visit?
+    Menu 		    current_menu 	{ *current_menu_sp };
+    State_menu		    kludge_state	{};
     /* 								//Menu 					kludge_menu			{};
     // std::shared_ptr<Menu> 	kludge_menu_sp 		{};
     // IO_table  				kludge_table   		{}; 			// state.io_table_sp();  // todo: I don't think I need a value in the lambda, because it is overridden at std::visit?A

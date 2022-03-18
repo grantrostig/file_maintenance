@@ -71,7 +71,7 @@
            </item>
            <item>
             <handle>
-             <uid>{9f4e70a6-44cf-4a4c-9a7e-f78c9c837cb6}</uid>
+             <uid>{83acb775-00d3-4d3a-a081-dccde2bec9db}</uid>
              <target>
               <instance type="MCanvasDiagram">
                <MCanvasDiagram>
@@ -81,17 +81,249 @@
                    <MObject>
                     <base-MElement>
                      <MElement>
-                      <uid>{9f4e70a6-44cf-4a4c-9a7e-f78c9c837cb6}</uid>
+                      <uid>{83acb775-00d3-4d3a-a081-dccde2bec9db}</uid>
                      </MElement>
                     </base-MElement>
-                    <name>model_test</name>
+                    <name>Canvas Diag1</name>
                    </MObject>
                   </base-MObject>
-                  <last-modified>1644103058252</last-modified>
-                  <toolbarid>Sequences</toolbarid>
+                  <elements>
+                   <qlist>
+                    <item>
+                     <instance type="DSwimlane">
+                      <DSwimlane>
+                       <base-DElement>
+                        <DElement>
+                         <uid>{1061e074-96ce-421f-a61b-c478daaa067f}</uid>
+                        </DElement>
+                       </base-DElement>
+                       <horizontal>true</horizontal>
+                       <pos>410</pos>
+                      </DSwimlane>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DSwimlane">
+                      <DSwimlane>
+                       <base-DElement>
+                        <DElement>
+                         <uid>{ad6fc611-b4b5-423c-a067-4cb820ad9c4b}</uid>
+                        </DElement>
+                       </base-DElement>
+                       <horizontal>true</horizontal>
+                       <pos>505</pos>
+                      </DSwimlane>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DItem">
+                      <DItem>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{664dd795-06d5-43aa-9ee2-5a0cb8c0f612}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{79cea149-c765-4429-974b-a3a862d690a0}</object>
+                         <stereotypes>
+                          <qlist>
+                           <item>activation</item>
+                          </qlist>
+                         </stereotypes>
+                         <name>my Activation</name>
+                         <pos>x:170;y:295</pos>
+                         <rect>x:-5;y:-210;w:10;h:420</rect>
+                         <auto-sized>false</auto-sized>
+                         <visual-role>8</visual-role>
+                        </DObject>
+                       </base-DObject>
+                       <variety>activation</variety>
+                       <shape-editable>false</shape-editable>
+                      </DItem>
+                     </instance>
+                    </item>
+                   </qlist>
+                  </elements>
+                  <last-modified>1647638539911</last-modified>
+                  <toolbarid>General</toolbarid>
                  </MDiagram>
                 </base-MDiagram>
                </MCanvasDiagram>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{79cea149-c765-4429-974b-a3a862d690a0}</uid>
+             <target>
+              <instance type="MItem">
+               <MItem>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{79cea149-c765-4429-974b-a3a862d690a0}</uid>
+                    <stereotypes>
+                     <qlist>
+                      <item>activation</item>
+                     </qlist>
+                    </stereotypes>
+                   </MElement>
+                  </base-MElement>
+                  <name>my Activation</name>
+                 </MObject>
+                </base-MObject>
+                <variety-editable>false</variety-editable>
+                <variety>activation</variety>
+               </MItem>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{6987ab7e-e6f5-432b-ab93-8405ad1e9c7d}</uid>
+             <target>
+              <instance type="MCanvasDiagram">
+               <MCanvasDiagram>
+                <base-MDiagram>
+                 <MDiagram>
+                  <base-MObject>
+                   <MObject>
+                    <base-MElement>
+                     <MElement>
+                      <uid>{6987ab7e-e6f5-432b-ab93-8405ad1e9c7d}</uid>
+                     </MElement>
+                    </base-MElement>
+                    <name>Canvas Class Diag2</name>
+                   </MObject>
+                  </base-MObject>
+                  <elements>
+                   <qlist>
+                    <item>
+                     <instance type="DClass">
+                      <DClass>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{75f7f0f0-b9d6-4d71-83ca-f928924a4144}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{a51d4e97-0116-41a9-8a7a-a12a3a3d0e01}</object>
+                         <name>Menu_item</name>
+                         <pos>x:230;y:300</pos>
+                         <rect>x:-170;y:-235;w:340;h:470</rect>
+                         <auto-sized>false</auto-sized>
+                         <visual-role>0</visual-role>
+                        </DObject>
+                       </base-DObject>
+                       <namespace>gr</namespace>
+                       <template>
+                        <qlist>
+                         <item>grtemplate</item>
+                        </qlist>
+                       </template>
+                       <show-all-members>true</show-all-members>
+                      </DClass>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DItem">
+                      <DItem>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{2826ee25-e3b4-498b-8419-cce8b20b2468}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{27133dcf-12be-45bb-bef6-f22312da0841}</object>
+                         <name>New Item</name>
+                         <pos>x:150;y:620</pos>
+                         <rect>x:-35;y:-15;w:70;h:30</rect>
+                         <visual-role>0</visual-role>
+                        </DObject>
+                       </base-DObject>
+                       <shape-editable>false</shape-editable>
+                      </DItem>
+                     </instance>
+                    </item>
+                   </qlist>
+                  </elements>
+                  <last-modified>1647638987629</last-modified>
+                  <toolbarid>General</toolbarid>
+                 </MDiagram>
+                </base-MDiagram>
+               </MCanvasDiagram>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{a51d4e97-0116-41a9-8a7a-a12a3a3d0e01}</uid>
+             <target>
+              <instance type="MClass">
+               <MClass>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{a51d4e97-0116-41a9-8a7a-a12a3a3d0e01}</uid>
+                   </MElement>
+                  </base-MElement>
+                  <name>Menu_item</name>
+                 </MObject>
+                </base-MObject>
+                <namespace>gr</namespace>
+                <template>
+                 <qlist>
+                  <item>grtemplate</item>
+                 </qlist>
+                </template>
+                <members>
+                 <qlist>
+                  <item>
+                   <MClassMember>
+                    <uid>{13c06182-9082-454d-9fc4-e0d8b6afd697}</uid>
+                    <type>1</type>
+                    <declaration>id</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e2964983-28ef-4fd9-889c-3a1ad136b033}</uid>
+                    <type>1</type>
+                    <declaration>name</declaration>
+                   </MClassMember>
+                  </item>
+                 </qlist>
+                </members>
+               </MClass>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{27133dcf-12be-45bb-bef6-f22312da0841}</uid>
+             <target>
+              <instance type="MItem">
+               <MItem>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{27133dcf-12be-45bb-bef6-f22312da0841}</uid>
+                   </MElement>
+                  </base-MElement>
+                  <name>New Item</name>
+                 </MObject>
+                </base-MObject>
+               </MItem>
               </instance>
              </target>
             </handle>
